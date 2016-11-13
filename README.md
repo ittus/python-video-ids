@@ -34,6 +34,41 @@ It supports Youtube, Dailymotion and Vimeo at the moment.
 
 ## Youtube
 
+```
+https://www.youtube.com/embed/[video-id]'
+https://youtu.be/[video-id]'
+https://www.youtube.com/watch?v=[video-id]'
+```
+
 ## Dailymotion
 
+```
+http://www.dailymotion.com/video/[video-id]
+http://www.dailymotion.com/video/[video-id]_[seo-string]
+http://dai.ly/[video-id]
+```
+
 ## Vimeo
+
+```
+http://vimeo.com/[video-id]
+http://player.vimeo.com/video/[video-id]
+http://vimeo.com/channels/staffpicks/[video-id]
+https://vimeo.com/groups/name/videos/[video-id]
+https://vimeo.com/album/[album-id]/video/[video-id]
+```
+
+# Testing
+
+Unit test
+```
+python -m unittest discover
+```
+
+```
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 0.003s
+
+OK
+```
